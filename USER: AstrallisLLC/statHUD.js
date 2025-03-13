@@ -157,11 +157,6 @@ function initializeHud() {
         thanksContainer.style.backdropFilter = "blur(3px)";
         thanksContainer.style.transition = "opacity 1s ease-in-out"; // Add transition for opacity
 
-        // Create the animated paragraph element
-        const animatedParagraph = document.createElement("p");
-        thanksContainer.appendChild(animatedParagraph);
-        animatedParagraph.innerText = "Thanks for using our mods!";
-
         // Apply styles for animation
         animatedParagraph.style.animation = "fade-in-out 2s ease-in-out infinite";
         animatedParagraph.style.whiteSpace = "nowrap";
